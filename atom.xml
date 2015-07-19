@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2015-07-19T10:26:32+08:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://unclerayray.github.io/atom.xml" rel="self"/>
+  <link href="http://unclerayray.github.io/"/>
+  <updated>2015-07-19T13:57:46+08:00</updated>
+  <id>http://unclerayray.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -14,10 +14,19 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://unclerayray.github.io/blog/2015/07/19/test/"/>
+    <updated>2015-07-19T13:57:26+08:00</updated>
+    <id>http://unclerayray.github.io/blog/2015/07/19/test</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hello Octopress Blog]]></title>
-    <link href="http://yoursite.com/blog/2015/07/19/hello-octopress-blog/"/>
+    <link href="http://unclerayray.github.io/blog/2015/07/19/hello-octopress-blog/"/>
     <updated>2015-07-19T10:24:50+08:00</updated>
-    <id>http://yoursite.com/blog/2015/07/19/hello-octopress-blog</id>
+    <id>http://unclerayray.github.io/blog/2015/07/19/hello-octopress-blog</id>
     <content type="html"><![CDATA[<h1>Hey! This is the very first blog of my life</h1>
 ]]></content>
   </entry>
