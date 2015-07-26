@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://unclerayray.github.io/atom.xml" rel="self"/>
   <link href="http://unclerayray.github.io/"/>
-  <updated>2015-07-19T13:57:46+08:00</updated>
+  <updated>2015-07-26T23:12:40+08:00</updated>
   <id>http://unclerayray.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jenkins Introduction]]></title>
+    <link href="http://unclerayray.github.io/blog/2015/07/26/jenkins-introduction/"/>
+    <updated>2015-07-26T23:07:31+08:00</updated>
+    <id>http://unclerayray.github.io/blog/2015/07/26/jenkins-introduction</id>
+    <content type="html"><![CDATA[<blockquote><pre><code>Jenkins is an extensible open source continuous integration server
+</code></pre>
+
+<p>这是Jenkins官网的slogan。一个可扩展的开源CI server。但其实他究竟是干嘛的呢？首先你要明白什么是CI.</p>
+
+<h2>CI</h2>
+
+<p>CI是continuous integration，即持续集成。开发人员都明白，项目的开发不是一个人的战斗，大家的工作都组成一个整体才是项目产出，这就叫集成。那么持续集成，大家的工作都会通过版本控制软件提交到代码库中，那么就需要保证你提交的代码不仅需要在你本地跑得了，还要保证大家的代码都提交进来后整个项目的状态是稳定的。要避免莫个人的改动而导致整个项目运行不了，影响到整个项目组的开发，就必须在代码库更新的过程中持续的做集成，而Jenkins，就是做集成的最好的一个工具。</p></blockquote>
+
+<h2>Why Jenkins</h2>
+
+<h3>Open source</h3>
+
+<p>这很重要，开源是整个Java生态链中相对其他语言很有优势的地方。
+第一，免费。不管老板或者公司有钱没钱，Jenkins都可以上。
+第二，正所谓众人拾柴火焰高，正是由于人人都能为Jenkins做贡献。所以Jenkins这个项目才能源源不断的汲取大家提供的养分和贡献而保持不断进步。</p>
+
+<h3>extensible</h3>
+
+<p>Jenkins有很多扩展插件，这些扩展基本上可以cover到日常开发或维护所需要用到的场景。如果没有cover到或者扩展插件有bug，由于他是开源的，你随时能为开源社区贡献自己的力量。</p>
+
+<h2>Jenkins有什么用</h2>
+
+<p>说了这么多，如果不举几个有说服力的例子，大家肯定会觉得看了这篇文章，然而并没有什么卵用。我还是没看到为什么要花时间精力去整这么个东西来做个摆设。下面我就举几个实际的例子。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>
